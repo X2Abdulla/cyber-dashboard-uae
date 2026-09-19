@@ -1,0 +1,11 @@
+# منصة دِرْع — منع فهرسة واجهات النظام الداخلية
+User-agent: *
+Disallow: /dashboard
+Disallow: /alerts
+Disallow: /files
+Disallow: /devices
+Disallow: /reports
+Disallow: /audit
+Disallow: /users
+Disallow: /api/
+Allow: /login
