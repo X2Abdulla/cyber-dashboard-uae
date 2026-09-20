@@ -253,7 +253,7 @@ docker run -p 3000:3000 \
 - إضافة قاعدة فحص روابط: أضف إلى قوائم `url-scan.ts`.
 - إضافة قناة تنبيه (Slack/Teams/WhatsApp): نفّذ دالة إرسال في `src/lib/notify.ts` واستدعها داخل `dispatchAlert`.
 - إضافة جدول: عرّفه في `src/db/schema.ts` ثم أضف `CREATE TABLE IF NOT EXISTS` المقابل في `src/db/bootstrap.ts` وشغّل `npx drizzle-kit push`.
-
+تحديث
 ---
 
 © دِرْع — منصة الأمن السيبراني والإدارة الذكية. كل العمليات مسجّلة ومشفّرة.
